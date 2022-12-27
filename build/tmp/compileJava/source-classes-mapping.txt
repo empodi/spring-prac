@@ -1,7 +1,7 @@
 com/jojoldu/book/springboot/config/auth/SecurityConfig.java
  com.jojoldu.book.springboot.config.auth.SecurityConfig
-com/jojoldu/book/springboot/Application.java
- com.jojoldu.book.springboot.Application
+com/jojoldu/book/Main.java
+ com.jojoldu.book.Main
 com/jojoldu/book/springboot/config/auth/dto/OAuthAttributes.java
  com.jojoldu.book.springboot.config.auth.dto.OAuthAttributes
  com.jojoldu.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
@@ -49,5 +49,7 @@ com/jojoldu/book/springboot/domain/user/User.java
  com.jojoldu.book.springboot.domain.user.User$UserBuilder
 com/jojoldu/book/springboot/domain/user/Role.java
  com.jojoldu.book.springboot.domain.user.Role
-com/jojoldu/book/Main.java
- com.jojoldu.book.Main
+com/jojoldu/book/springboot/Application.java
+ com.jojoldu.book.springboot.Application
+com/jojoldu/book/springboot/config/JpaConfig.java
+ com.jojoldu.book.springboot.config.JpaConfig
