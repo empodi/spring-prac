@@ -18,7 +18,7 @@ do
   UP_COUNT=$(echo ${RESPONSE} | grep 'real' | wc -l)
 
   if [ ${UP_COUNT} -ge 1 ]
-  then # $up_count >= 1 ("real 문자열이 있는지 검증")
+  then # $up_count >= 1 ("real" 문자열이 있는지 검증)
     echo "> Health check 성공"
     switch_proxy
     break
@@ -33,6 +33,7 @@ do
     echo "> Nginx 에 연결하지 않고 배포를 종료합니다."
     exit 1
   fi
+
   echo "> Health check 연결 실패. 재시도..."
   sleep 10
 done
